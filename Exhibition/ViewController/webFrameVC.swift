@@ -7,24 +7,20 @@
 //
 
 import UIKit
+import WebKit
 
 class webFrameVC: UIViewController {
-
+    @IBOutlet weak var webView: WKWebView!
+    var x = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+        
+        //videoTitelLbl.text = ultrasData.videoTitel
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        let newString = x.replacingOccurrences(of: "600", with: "\(webView.frame.width)")
+        let newString2 = newString.replacingOccurrences(of: "450", with: "\(webView.frame.height)")
+        
+        webView.loadHTMLString(newString2, baseURL: nil)
+        
     }
-    */
-
 }
