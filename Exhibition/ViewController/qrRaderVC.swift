@@ -10,21 +10,43 @@ import UIKit
 
 class qrRaderVC: UIViewController {
 
+    @IBOutlet weak var titless: UILabel!
+    @IBOutlet weak var phone: UILabel!
+    @IBOutlet weak var image: UIImageView!
+    
+    var titles = ""
+    var phones = ""
+    var images = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupNavagtion()
+        setUPdetials()
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupNavagtion(){
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
+        
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        
     }
-    */
-
+    
+    func setUPdetials(){
+        print(titles)
+        titless.text = titles
+        self.phone.text = phones
+        image.image = UIImage(named: "3")
+        let s = ("\(URLs.mainImage)\(images)")
+        let encodedLink = s.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)
+        let encodedURL = NSURL(string: encodedLink!)! as URL
+        
+        image.kf.indicatorType = .activity
+        if let url = URL(string: "\(encodedURL)") {
+            print("g\(url)")
+            image.kf.setImage(with: url)
+        }
+        
+    }
 }

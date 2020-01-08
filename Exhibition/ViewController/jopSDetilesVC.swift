@@ -10,21 +10,36 @@ import UIKit
 
 class jopSDetilesVC: UIViewController {
 
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var des: UILabel!
+    @IBOutlet weak var email: UILabel!
+    @IBOutlet weak var phone: UILabel!
+    
+    var singleItem: jops?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        setUPdetials()
+        
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setUPdetials(){
+        des.text = singleItem?.descriptio
+        email.text = singleItem?.email
+        phone.text =  singleItem?.date
+        image.image = UIImage(named: "3")
+        let s = ("\(URLs.mainImage)\(singleItem?.img ?? "")")
+        let encodedLink = s.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)
+        let encodedURL = NSURL(string: encodedLink!)! as URL
+        
+        image.kf.indicatorType = .activity
+        if let url = URL(string: "\(encodedURL)") {
+            print("g\(url)")
+            image.kf.setImage(with: url)
+        }
+        
     }
-    */
-
 }
+

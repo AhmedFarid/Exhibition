@@ -9,22 +9,32 @@
 import UIKit
 
 class aboutUsVC: UIViewController {
-
+    
+    @IBOutlet weak var ditalsTV: UITextView!
+    
+    var dataDes = ""
+    var id = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if id == ""{
+            getData()
+        }else {
+            self.ditalsTV.text = dataDes
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func getData(){
+        
+        API_Menue.aboutUs{ (erroe: Error?, Success,status ,title,QRcode,phone,errors)  in
+            if Success {
+                if status == true {
+                   self.ditalsTV.text = title
+                }else {
+                    
+                }
+            }else{
+            }
+        }
     }
-    */
-
 }

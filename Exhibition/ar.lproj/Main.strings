@@ -1,27 +1,26 @@
-
 /* Class = "UITextField"; placeholder = "Name"; ObjectID = "0vv-Ha-Oqb"; */
-"0vv-Ha-Oqb.placeholder" = "Name";
+"0vv-Ha-Oqb.placeholder" = "الاسم";
 
 /* Class = "UIButton"; normalTitle = "Register Viewer"; ObjectID = "1KP-nf-RtT"; */
-"1KP-nf-RtT.normalTitle" = "Register Viewer";
+"1KP-nf-RtT.normalTitle" = "سجل كعارض";
+
+/* Class = "UIButton"; normalTitle = "VACANT JOBS"; ObjectID = "1tx-md-TO1"; */
+"1tx-md-TO1.normalTitle" = "وظائف";
 
 /* Class = "UITextField"; placeholder = "Name"; ObjectID = "2PP-xj-QRT"; */
-"2PP-xj-QRT.placeholder" = "Name";
+"2PP-xj-QRT.placeholder" = "الاسم";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "2ZS-Xc-WB5"; */
 "2ZS-Xc-WB5.text" = "Label";
 
 /* Class = "UITextField"; placeholder = "Phone"; ObjectID = "3Pj-X3-iO7"; */
-"3Pj-X3-iO7.placeholder" = "Phone";
+"3Pj-X3-iO7.placeholder" = "الهاتف الجوال";
 
 /* Class = "UILabel"; text = "Sponser"; ObjectID = "3q9-yU-437"; */
-"3q9-yU-437.text" = "Sponser";
-
-/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "45Q-BC-Eay"; */
-"45Q-BC-Eay.placeholder" = "Phone";
+"3q9-yU-437.text" = "الرعاة";
 
 /* Class = "UITextField"; placeholder = "Name"; ObjectID = "4rH-Og-v4H"; */
-"4rH-Og-v4H.placeholder" = "Name";
+"4rH-Og-v4H.placeholder" = "الاسم";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "6Ar-hE-zFK"; */
 "6Ar-hE-zFK.text" = "Label";
@@ -29,242 +28,251 @@
 /* Class = "UILabel"; text = "Label"; ObjectID = "6gI-07-p43"; */
 "6gI-07-p43.text" = "Label";
 
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "7bl-h3-BIz"; */
+"7bl-h3-BIz.normalTitle" = "تسجيل";
+
 /* Class = "UILabel"; text = "Label"; ObjectID = "7TJ-dZ-NXD"; */
 "7TJ-dZ-NXD.text" = "Label";
 
-/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "7bl-h3-BIz"; */
-"7bl-h3-BIz.normalTitle" = "Submit";
+/* Class = "UILabel"; text = "Product"; ObjectID = "8cw-D9-7ym"; */
+"8cw-D9-7ym.text" = "منتجات";
 
 /* Class = "UILabel"; text = "data"; ObjectID = "8hX-8R-GdD"; */
-"8hX-8R-GdD.text" = "data";
+"8hX-8R-GdD.text" = "التاريخ";
 
 /* Class = "UILabel"; text = "Exhibitors"; ObjectID = "8sc-tl-Few"; */
-"8sc-tl-Few.text" = "Exhibitors";
+"8sc-tl-Few.text" = "اجنحة المعرض الالكترونية";
 
 /* Class = "UITextField"; placeholder = "Name"; ObjectID = "9ut-5J-Ue6"; */
-"9ut-5J-Ue6.placeholder" = "Name";
+"9ut-5J-Ue6.placeholder" = "الاسم";
 
-/* Class = "UILabel"; text = "Hole Exhibitor Number 4"; ObjectID = "APd-Sw-4qp"; */
-"APd-Sw-4qp.text" = "Hole Exhibitor Number 4";
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "45Q-BC-Eay"; */
+"45Q-BC-Eay.placeholder" = "الهاتف الجوال";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "aB5-9X-C5B"; */
+"aB5-9X-C5B.placeholder" = "البريد الالكتروني";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "Abu-rN-6o8"; */
 "Abu-rN-6o8.text" = "Label";
 
+/* Class = "UILabel"; text = "Hole Exhibitor Number 2"; ObjectID = "aKg-29-ZRV"; */
+"aKg-29-ZRV.text" = "صاله ٢";
+
+/* Class = "UILabel"; text = "Hole Exhibitor Number 4"; ObjectID = "APd-Sw-4qp"; */
+"APd-Sw-4qp.text" = "صاله ٤";
+
 /* Class = "UITextField"; placeholder = "Message"; ObjectID = "BJO-VC-1yR"; */
-"BJO-VC-1yR.placeholder" = "Message";
+"BJO-VC-1yR.placeholder" = "رساله";
+
+/* Class = "UITextField"; placeholder = "Location"; ObjectID = "bo4-QF-vH3"; */
+"bo4-QF-vH3.placeholder" = "عنوان";
+
+/* Class = "UITextField"; placeholder = "Type"; ObjectID = "bqE-ZE-bWW"; */
+"bqE-ZE-bWW.placeholder" = "نوع";
 
 /* Class = "UITextField"; placeholder = "Message"; ObjectID = "BUi-sa-F6h"; */
-"BUi-sa-F6h.placeholder" = "Message";
-
-/* Class = "UITextField"; placeholder = "Email"; ObjectID = "CqJ-pF-Kcf"; */
-"CqJ-pF-Kcf.placeholder" = "Email";
+"BUi-sa-F6h.placeholder" = "الرساله";
 
 /* Class = "UIButton"; normalTitle = "Register Vsitors"; ObjectID = "Cqb-aW-vPx"; */
-"Cqb-aW-vPx.normalTitle" = "Register Vsitors";
+"Cqb-aW-vPx.normalTitle" = "سجل كذائر";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "CqJ-pF-Kcf"; */
+"CqJ-pF-Kcf.placeholder" = "البريد الالكتروني";
 
 /* Class = "UILabel"; text = "Hole Exhibitor Number 1"; ObjectID = "D6M-XH-vzh"; */
-"D6M-XH-vzh.text" = "Hole Exhibitor Number 1";
+"D6M-XH-vzh.text" = "صاله١ ";
 
 /* Class = "UIButton"; normalTitle = "owner"; ObjectID = "D8V-VY-hQ5"; */
-"D8V-VY-hQ5.normalTitle" = "owner";
+"D8V-VY-hQ5.normalTitle" = "صاحب معرض";
 
 /* Class = "UILabel"; text = "Category Provider"; ObjectID = "DGu-MM-888"; */
-"DGu-MM-888.text" = "Category Provider";
+"DGu-MM-888.text" = "مقدمي الخدمات";
+
+/* Class = "UILabel"; text = "Jops"; ObjectID = "dpL-nR-71P"; */
+"dpL-nR-71P.text" = "الوظائف الخاليه";
+
+/* Class = "UILabel"; text = "E-Shop"; ObjectID = "dYf-HR-4OL"; */
+"dYf-HR-4OL.text" = "المتجر الالكتروني";
+
+/* Class = "UIButton"; normalTitle = "Site Link with 360 degree"; ObjectID = "ebC-9h-xIK"; */
+"ebC-9h-xIK.normalTitle" = "رابط الموقع بتقنية ٣٦٠ ثلاثية الأبعاد";
 
 /* Class = "UILabel"; text = "14*15"; ObjectID = "EGm-Mp-hPD"; */
 "EGm-Mp-hPD.text" = "14*15";
 
 /* Class = "UIButton"; normalTitle = "Service Providers"; ObjectID = "EM2-59-8QZ"; */
-"EM2-59-8QZ.normalTitle" = "Service Providers";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "Fec-c1-uSz"; */
-"Fec-c1-uSz.text" = "Label";
-
-/* Class = "UIButton"; normalTitle = "Current Exhibitions"; ObjectID = "GBR-V2-SLp"; */
-"GBR-V2-SLp.normalTitle" = "Current Exhibitions";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "GX6-2w-kny"; */
-"GX6-2w-kny.text" = "Label";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "Hhm-wc-fmb"; */
-"Hhm-wc-fmb.text" = "Label";
-
-/* Class = "UILabel"; text = "Category Provider"; ObjectID = "Iv7-Ma-r6L"; */
-"Iv7-Ma-r6L.text" = "Category Provider";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "Ixb-Cl-38e"; */
-"Ixb-Cl-38e.text" = "Label";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "J3v-Q0-H9z"; */
-"J3v-Q0-H9z.text" = "Label";
-
-/* Class = "UILabel"; text = "Hole Exhibitor Number 2"; ObjectID = "K0E-Wy-RDd"; */
-"K0E-Wy-RDd.text" = "Hole Exhibitor Number 2";
-
-/* Class = "UILabel"; text = "mail"; ObjectID = "MTb-zb-2aD"; */
-"MTb-zb-2aD.text" = "mail";
-
-/* Class = "UITextField"; placeholder = "Email"; ObjectID = "NfP-pk-CLW"; */
-"NfP-pk-CLW.placeholder" = "Email";
-
-/* Class = "UIButton"; normalTitle = "Register Vsitors"; ObjectID = "P8B-6y-uq3"; */
-"P8B-6y-uq3.normalTitle" = "Register Vsitors";
-
-/* Class = "UIButton"; normalTitle = "Site Link with 360 degree"; ObjectID = "Pgn-gY-iSt"; */
-"Pgn-gY-iSt.normalTitle" = "Site Link with 360 degree";
-
-/* Class = "UILabel"; text = "des"; ObjectID = "Pok-Tm-IYG"; */
-"Pok-Tm-IYG.text" = "des";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "Pq2-9j-NbP"; */
-"Pq2-9j-NbP.text" = "Label";
-
-/* Class = "UIButton"; normalTitle = "Change Language"; ObjectID = "Q8Y-0U-XRh"; */
-"Q8Y-0U-XRh.normalTitle" = "Change Language";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "Qeg-Lc-mc0"; */
-"Qeg-Lc-mc0.text" = "Label";
-
-/* Class = "UITextField"; placeholder = "Email"; ObjectID = "QmK-3O-r00"; */
-"QmK-3O-r00.placeholder" = "Email";
-
-/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "QvM-lZ-Oh3"; */
-"QvM-lZ-Oh3.normalTitle" = "Submit";
-
-/* Class = "UILabel"; text = "Category Provider"; ObjectID = "R0W-R3-D5F"; */
-"R0W-R3-D5F.text" = "Category Provider";
-
-/* Class = "UIButton"; normalTitle = "About Us"; ObjectID = "R0s-ni-KCg"; */
-"R0s-ni-KCg.normalTitle" = "About Us";
-
-/* Class = "UILabel"; text = "Hole Exhibitor Number 3"; ObjectID = "UsM-g0-KOx"; */
-"UsM-g0-KOx.text" = "Hole Exhibitor Number 3";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "V8A-YO-yxq"; */
-"V8A-YO-yxq.text" = "Label";
-
-/* Class = "UITextField"; placeholder = "Date To"; ObjectID = "VjE-ik-5TH"; */
-"VjE-ik-5TH.placeholder" = "Date To";
-
-/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "Vsd-6j-3ix"; */
-"Vsd-6j-3ix.placeholder" = "Phone";
-
-/* Class = "UILabel"; text = "Current Exhibition"; ObjectID = "WDv-0I-H1W"; */
-"WDv-0I-H1W.text" = "Current Exhibition";
-
-/* Class = "UITextField"; placeholder = "Name"; ObjectID = "WGC-Tr-MaH"; */
-"WGC-Tr-MaH.placeholder" = "Name";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "XeR-sn-LdC"; */
-"XeR-sn-LdC.text" = "Label";
-
-/* Class = "UIButton"; normalTitle = "Previous Exhibitions"; ObjectID = "Xld-tr-LLv"; */
-"Xld-tr-LLv.normalTitle" = "Previous Exhibitions";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "XnC-o9-FkR"; */
-"XnC-o9-FkR.text" = "Label";
-
-/* Class = "UITextField"; placeholder = "Search........."; ObjectID = "ZLE-og-67Y"; */
-"ZLE-og-67Y.placeholder" = "Search.........";
-
-/* Class = "UITextField"; placeholder = "Email"; ObjectID = "aB5-9X-C5B"; */
-"aB5-9X-C5B.placeholder" = "Email";
-
-/* Class = "UILabel"; text = "Hole Exhibitor Number 2"; ObjectID = "aKg-29-ZRV"; */
-"aKg-29-ZRV.text" = "Hole Exhibitor Number 2";
-
-/* Class = "UITextField"; placeholder = "Location"; ObjectID = "bo4-QF-vH3"; */
-"bo4-QF-vH3.placeholder" = "Location";
-
-/* Class = "UITextField"; placeholder = "Type"; ObjectID = "bqE-ZE-bWW"; */
-"bqE-ZE-bWW.placeholder" = "Type";
-
-/* Class = "UILabel"; text = "Jops"; ObjectID = "dpL-nR-71P"; */
-"dpL-nR-71P.text" = "Jops";
+"EM2-59-8QZ.normalTitle" = "مقدمي الخدمات";
 
 /* Class = "UILabel"; text = "Service"; ObjectID = "exn-tJ-bEC"; */
-"exn-tJ-bEC.text" = "Service";
+"exn-tJ-bEC.text" = "خدمات زوار المعرض";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "ez0-H9-jlr"; */
 "ez0-H9-jlr.text" = "Label";
 
+/* Class = "UILabel"; text = "Label"; ObjectID = "Fec-c1-uSz"; */
+"Fec-c1-uSz.text" = "Label";
+
 /* Class = "UILabel"; text = "Hole Exhibitor Number 4"; ObjectID = "fvy-F2-bbq"; */
-"fvy-F2-bbq.text" = "Hole Exhibitor Number 4";
+"fvy-F2-bbq.text" = "صاله ٤";
+
+/* Class = "UIButton"; normalTitle = "Current Exhibitions"; ObjectID = "GBR-V2-SLp"; */
+"GBR-V2-SLp.normalTitle" = "المعارض الحاليه";
 
 /* Class = "UITextField"; placeholder = "Date From"; ObjectID = "gfb-di-aA7"; */
-"gfb-di-aA7.placeholder" = "Date From";
+"gfb-di-aA7.placeholder" = "من";
 
 /* Class = "UILabel"; text = "Service"; ObjectID = "gp9-by-oa6"; */
-"gp9-by-oa6.text" = "Service";
+"gp9-by-oa6.text" = "خدمات زوار المعرض";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GX6-2w-kny"; */
+"GX6-2w-kny.text" = "Label";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "h0L-08-Vem"; */
 "h0L-08-Vem.text" = "Label";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "h8p-Za-9QE"; */
-"h8p-Za-9QE.text" = "Title";
-
-/* Class = "UILabel"; text = "number"; ObjectID = "hYv-Gn-baC"; */
-"hYv-Gn-baC.text" = "number";
+"h8p-Za-9QE.text" = "الاسم";
 
 /* Class = "UITextField"; placeholder = "Phone"; ObjectID = "hb5-I6-Cwz"; */
-"hb5-I6-Cwz.placeholder" = "Phone";
+"hb5-I6-Cwz.placeholder" = "الهاتف الجوال";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Hhm-wc-fmb"; */
+"Hhm-wc-fmb.text" = "Label";
+
+/* Class = "UILabel"; text = "number"; ObjectID = "hYv-Gn-baC"; */
+"hYv-Gn-baC.text" = "رقم";
 
 /* Class = "UILabel"; text = "Exhibitors"; ObjectID = "idP-Wi-A0C"; */
-"idP-Wi-A0C.text" = "Exhibitors";
+"idP-Wi-A0C.text" = "اجنحة المعرض الالكترونية";
 
 /* Class = "UILabel"; text = "Hole Exhibitor Number 3"; ObjectID = "ilr-Ss-DYn"; */
-"ilr-Ss-DYn.text" = "Hole Exhibitor Number 3";
+"ilr-Ss-DYn.text" = "صاله ٣";
+
+/* Class = "UILabel"; text = "Category Provider"; ObjectID = "Iv7-Ma-r6L"; */
+"Iv7-Ma-r6L.text" = "مقدمي الخدمات بمجال المعارض";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ixb-Cl-38e"; */
+"Ixb-Cl-38e.text" = "Label";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "j0W-MX-B1V"; */
 "j0W-MX-B1V.text" = "Label";
 
-/* Class = "UILabel"; text = "Label"; ObjectID = "jQm-KJ-bx8"; */
-"jQm-KJ-bx8.text" = "Label";
+/* Class = "UILabel"; text = "Label"; ObjectID = "J3v-Q0-H9z"; */
+"J3v-Q0-H9z.text" = "Label";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "jkc-3H-5Wa"; */
 "jkc-3H-5Wa.text" = "Label";
 
+/* Class = "UILabel"; text = "Label"; ObjectID = "jQm-KJ-bx8"; */
+"jQm-KJ-bx8.text" = "Label";
+
+/* Class = "UILabel"; text = "Hole Exhibitor Number 2"; ObjectID = "K0E-Wy-RDd"; */
+"K0E-Wy-RDd.text" = "صاله ٢";
+
 /* Class = "UIButton"; normalTitle = "Contact US"; ObjectID = "l27-a2-aRt"; */
-"l27-a2-aRt.normalTitle" = "Contact US";
+"l27-a2-aRt.normalTitle" = "تواصل معنا";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "mT9-33-arn"; */
 "mT9-33-arn.text" = "Label";
 
+/* Class = "UILabel"; text = "mail"; ObjectID = "MTb-zb-2aD"; */
+"MTb-zb-2aD.text" = "البريد الالكتروني";
+
 /* Class = "UILabel"; text = "Sponser"; ObjectID = "n1d-RE-vhY"; */
-"n1d-RE-vhY.text" = "Sponser";
+"n1d-RE-vhY.text" = "الرعاة";
 
 /* Class = "UIButton"; normalTitle = "Site Link with 360 degree"; ObjectID = "n40-ie-vho"; */
-"n40-ie-vho.normalTitle" = "Site Link with 360 degree";
+"n40-ie-vho.normalTitle" = "رابط الموقع بتقنية ٣٦٠ ثلاثية الأبعاد";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "NfP-pk-CLW"; */
+"NfP-pk-CLW.placeholder" = "البريد الالكتروني";
 
 /* Class = "UITextField"; placeholder = "Phone"; ObjectID = "o2i-mM-ySM"; */
-"o2i-mM-ySM.placeholder" = "Phone";
+"o2i-mM-ySM.placeholder" = "الهاتف الجوال";
+
+/* Class = "UIButton"; normalTitle = "Exhibtion Location"; ObjectID = "obb-Ho-IVM"; */
+"obb-Ho-IVM.normalTitle" = "رابط موقع الشركة";
+
+/* Class = "UIButton"; normalTitle = "ABOUT EXHIBTOR"; ObjectID = "P7I-cY-FpU"; */
+"P7I-cY-FpU.normalTitle" = "من نحن";
+
+/* Class = "UIButton"; normalTitle = "Register Vsitors"; ObjectID = "P8B-6y-uq3"; */
+"P8B-6y-uq3.normalTitle" = "سجل كذائر";
+
+/* Class = "UIButton"; normalTitle = "Site Link with 360 degree"; ObjectID = "Pgn-gY-iSt"; */
+"Pgn-gY-iSt.normalTitle" = "رابط الموقع بتقنية ٣٦٠ ثلاثية الأبعاد";
 
 /* Class = "UITextField"; placeholder = "Message"; ObjectID = "pKX-2M-fWr"; */
-"pKX-2M-fWr.placeholder" = "Message";
+"pKX-2M-fWr.placeholder" = "رساله";
+
+/* Class = "UILabel"; text = "des"; ObjectID = "Pok-Tm-IYG"; */
+"Pok-Tm-IYG.text" = "وصف";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Pq2-9j-NbP"; */
+"Pq2-9j-NbP.text" = "Label";
 
 /* Class = "UITextField"; placeholder = "Email"; ObjectID = "pS9-Oh-rmb"; */
-"pS9-Oh-rmb.placeholder" = "Email";
+"pS9-Oh-rmb.placeholder" = "البريد الالكتروني";
+
+/* Class = "UIButton"; normalTitle = "عربي"; ObjectID = "Q8Y-0U-XRh"; */
+"Q8Y-0U-XRh.normalTitle" = "English";
+
+/* Class = "UIButton"; normalTitle = "CONTACT US"; ObjectID = "qaC-FA-whN"; */
+"qaC-FA-whN.normalTitle" = "تواصل معنا";
 
 /* Class = "UIButton"; normalTitle = "Register Viewer"; ObjectID = "qav-F1-s7L"; */
-"qav-F1-s7L.normalTitle" = "Register Viewer";
+"qav-F1-s7L.normalTitle" = "سجل كعارض";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Qeg-Lc-mc0"; */
+"Qeg-Lc-mc0.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "QmK-3O-r00"; */
+"QmK-3O-r00.placeholder" = "البريد الالكتورني";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "QvM-lZ-Oh3"; */
+"QvM-lZ-Oh3.normalTitle" = "تسجيل";
+
+/* Class = "UIButton"; normalTitle = "About Us"; ObjectID = "R0s-ni-KCg"; */
+"R0s-ni-KCg.normalTitle" = "من نحن";
+
+/* Class = "UILabel"; text = "Category Provider"; ObjectID = "R0W-R3-D5F"; */
+"R0W-R3-D5F.text" = "مقدمي الخدمات بمجال المعارض";
 
 /* Class = "UILabel"; text = "Hole Exhibitor Number 1"; ObjectID = "rLf-AP-hX6"; */
-"rLf-AP-hX6.text" = "Hole Exhibitor Number 1";
+"rLf-AP-hX6.text" = "صاله ١";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "tVa-cj-dMT"; */
 "tVa-cj-dMT.text" = "Label";
 
 /* Class = "UITextField"; placeholder = "Reason"; ObjectID = "ucq-ZT-tM6"; */
-"ucq-ZT-tM6.placeholder" = "Reason";
+"ucq-ZT-tM6.placeholder" = "سبب";
 
 /* Class = "UIButton"; normalTitle = "Provider"; ObjectID = "ukM-NG-Yzb"; */
-"ukM-NG-Yzb.normalTitle" = "Provider";
+"ukM-NG-Yzb.normalTitle" = "مقدم خدمه";
+
+/* Class = "UILabel"; text = "Hole Exhibitor Number 3"; ObjectID = "UsM-g0-KOx"; */
+"UsM-g0-KOx.text" = "صاله ٣";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "V8A-YO-yxq"; */
+"V8A-YO-yxq.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Date To"; ObjectID = "VjE-ik-5TH"; */
+"VjE-ik-5TH.placeholder" = "الي";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "Vsd-6j-3ix"; */
+"Vsd-6j-3ix.placeholder" = "الهاتف الجوال";
 
 /* Class = "UILabel"; text = "id"; ObjectID = "w7e-uf-1TF"; */
 "w7e-uf-1TF.text" = "id";
 
+/* Class = "UILabel"; text = "Current Exhibition"; ObjectID = "WDv-0I-H1W"; */
+"WDv-0I-H1W.text" = "المعارض الحاليه";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "WGC-Tr-MaH"; */
+"WGC-Tr-MaH.placeholder" = "الاسم";
+
 /* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "wmy-pI-Iq5"; */
-"wmy-pI-Iq5.normalTitle" = "Submit";
+"wmy-pI-Iq5.normalTitle" = "تسجيل";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "woS-gF-pYT"; */
 "woS-gF-pYT.text" = "Label";
@@ -272,14 +280,33 @@
 /* Class = "UILabel"; text = "200"; ObjectID = "xAq-nj-iHQ"; */
 "xAq-nj-iHQ.text" = "200";
 
+/* Class = "UILabel"; text = "Label"; ObjectID = "XeR-sn-LdC"; */
+"XeR-sn-LdC.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Previous Exhibitions"; ObjectID = "Xld-tr-LLv"; */
+"Xld-tr-LLv.normalTitle" = "المعارض السابقه";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XnC-o9-FkR"; */
+"XnC-o9-FkR.text" = "Label";
+
+/* Class = "UILabel"; text = "Change Language"; ObjectID = "y1U-K9-L4v"; */
+"y1U-K9-L4v.text" = "تغير اللغه";
+
 /* Class = "UIButton"; normalTitle = "Register Vsitors"; ObjectID = "yAS-fA-JDf"; */
-"yAS-fA-JDf.normalTitle" = "Register Vsitors";
+"yAS-fA-JDf.normalTitle" = "سجل كذائر";
+
+/* Class = "UIButton"; normalTitle = "Exhibtion Location inside the exhibtion"; ObjectID = "ywB-AI-Czr"; */
+"ywB-AI-Czr.normalTitle" = "رابط موقع جناح الشركة بالمعرض";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "z2o-fl-NKz"; */
 "z2o-fl-NKz.text" = "Label";
 
-/* Class = "UIButton"; normalTitle = "Register Viewer"; ObjectID = "zJ4-XG-Tsi"; */
-"zJ4-XG-Tsi.normalTitle" = "Register Viewer";
-
 /* Class = "UILabel"; text = "Underconstruction Exhibition"; ObjectID = "zaL-v7-5X6"; */
-"zaL-v7-5X6.text" = "Underconstruction Exhibition";
+"zaL-v7-5X6.text" = "معارض تحت التنفيذ";
+
+/* Class = "UIButton"; normalTitle = "Register Viewer"; ObjectID = "zJ4-XG-Tsi"; */
+"zJ4-XG-Tsi.normalTitle" = "سجل كعارض";
+
+/* Class = "UITextField"; placeholder = "Search Engine Exhibitions"; ObjectID = "ZLE-og-67Y"; */
+"ZLE-og-67Y.placeholder" = "محرك بحث المعارض";
+

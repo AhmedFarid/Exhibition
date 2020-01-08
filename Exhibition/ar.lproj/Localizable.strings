@@ -43,3 +43,6 @@
 /* profuct list lang */
 "SAR" = "ريال";
 
+“CFBundleDisplayName” = “المعرض الالكتروني“;
+
+“CFBundleName” = “المعرض الالكتروني“;

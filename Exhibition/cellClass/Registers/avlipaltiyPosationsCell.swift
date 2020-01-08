@@ -10,15 +10,33 @@ import UIKit
 
 class avlipaltiyPosationsCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var id: UILabel!
+    @IBOutlet weak var number: UILabel!
+    @IBOutlet weak var size: UILabel!
+    @IBOutlet weak var price: UILabel!
+    
+    func configuerCell(item: availablePartitions) {
+        self.id.text = "\(item.id_partion)"
+        let places = NSLocalizedString("Places", comment: "profuct list lang")
+        self.number.text = "\(item.number) \(places))"
+        self.size.text = "\(item.width)*\(item.height)"
+        let sar = NSLocalizedString("SAR", comment: "profuct list lang")
+        self.price.text = "\(item.price) \(sar)"
     }
-
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        self.selectionStyle = .none
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        self.accessoryType = selected ? .checkmark : .none
     }
-
+    
+    
 }

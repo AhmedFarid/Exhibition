@@ -9,22 +9,36 @@
 import UIKit
 
 class categoryProviderDetialsVC: UIViewController {
-
+    
+    
+    @IBOutlet weak var imag: UIImageView!
+    @IBOutlet weak var DETIALESTF: UITextView!
+    @IBOutlet weak var titleTF: UILabel!
+    
+    var singleItem: categoryProviderDetails?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        getData()
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func getData() {
+        self.titleTF.text = singleItem?.title
+        self.DETIALESTF.text = singleItem?.descriptio
+        
+        
+        self.imag.image = UIImage(named: "3")
+        let s = ("\(URLs.mainImage)\(singleItem?.img ?? "")")
+        let encodedLink = s.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)
+        let encodedURL = NSURL(string: encodedLink!)! as URL
+        
+        self.imag.kf.indicatorType = .activity
+        if let url = URL(string: "\(encodedURL)") {
+            print("g\(url)")
+            self.imag.kf.setImage(with: url)
+            
+        }
+        
     }
-    */
-
 }
