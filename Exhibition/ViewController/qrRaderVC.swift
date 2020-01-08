@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  qrRaderVC.swift
 //  Exhibition
 //
-//  Created by Farido on 7/10/19.
+//  Created by Farido on 5/26/19.
 //  Copyright © 2019 Farido. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class qrRaderVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

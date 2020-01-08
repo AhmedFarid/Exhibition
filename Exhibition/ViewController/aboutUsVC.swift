@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  aboutUsVC.swift
 //  Exhibition
 //
-//  Created by Farido on 7/10/19.
+//  Created by Farido on 5/28/19.
 //  Copyright © 2019 Farido. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class aboutUsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

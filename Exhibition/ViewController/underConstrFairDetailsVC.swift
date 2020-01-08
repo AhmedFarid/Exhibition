@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  underConstrFairDetailsVC.swift
 //  Exhibition
 //
-//  Created by Farido on 7/10/19.
+//  Created by Farido on 5/24/19.
 //  Copyright © 2019 Farido. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class underConstrFairDetailsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

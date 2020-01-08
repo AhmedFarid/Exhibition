@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  jopSDetilesVC.swift
 //  Exhibition
 //
-//  Created by Farido on 7/10/19.
+//  Created by Farido on 6/12/19.
 //  Copyright © 2019 Farido. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class jopSDetilesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
