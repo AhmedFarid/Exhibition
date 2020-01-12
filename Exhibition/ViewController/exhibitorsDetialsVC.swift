@@ -76,7 +76,7 @@ class 	exhibitorsDetialsVC: UIViewController,MFMailComposeViewControllerDelegate
     
     
     @IBAction func emalieBTN(_ sender: Any) {
-        sendEmail()
+        openUrl(urlStr: emailex)
     }
     
     

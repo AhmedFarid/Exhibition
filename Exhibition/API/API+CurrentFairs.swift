@@ -433,7 +433,7 @@ class API_CurrentFairs: NSObject {
                         let tweeter_link = json["data"][0]["tweeter_link"].string
                         let instgram_link = json["data"][0]["instgram_link"].string
                         let snap_link = json["data"][0]["snap_link"].string
-                        let email = json["data"][0]["email"].string
+                        let email = json["data"][0]["ecommerc_link"].string
                         let link_map = json["data"][0]["link_map"].string
                         let website_link = json["data"][0]["website_link"].string
                         let youtube_link = json["data"][0]["youtube_link"].string
