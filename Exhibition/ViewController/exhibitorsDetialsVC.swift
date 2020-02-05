@@ -9,8 +9,9 @@
 import UIKit
 import WebKit
 import MessageUI
+import SafariServices
 
-class 	exhibitorsDetialsVC: UIViewController,MFMailComposeViewControllerDelegate {
+class 	exhibitorsDetialsVC: UIViewController,MFMailComposeViewControllerDelegate,SFSafariViewControllerDelegate  {
     
     
     
@@ -80,6 +81,8 @@ class 	exhibitorsDetialsVC: UIViewController,MFMailComposeViewControllerDelegate
     }
     
     
+    
+    
     func sendEmail() {
         if MFMailComposeViewController.canSendMail() {
             let mail = MFMailComposeViewController()
@@ -127,13 +130,32 @@ class 	exhibitorsDetialsVC: UIViewController,MFMailComposeViewControllerDelegate
         performSegue(withIdentifier: "sugex", sender: map)
     }
     
-   
+    func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+           controller.dismiss(animated: true, completion: nil)
+       }
+    
+    
+    
+    @IBAction func opnLinkWebSite(_ sender: Any) {
+         let safariVC = SFSafariViewController(url: NSURL(string:"http://" + sitex)! as URL)
+                self.present(safariVC, animated: true, completion: nil)
+                safariVC.delegate = self
+        //        print(emailex)
+        //        openUrl(urlStr: emailex)
+    }
+    
+    @IBAction func openLink(_ sender: Any) {
+        let safariVC = SFSafariViewController(url: NSURL(string:"http://" + emailex)! as URL)
+        self.present(safariVC, animated: true, completion: nil)
+        safariVC.delegate = self
+//        print(emailex)
+//        openUrl(urlStr: emailex)
+    }
+    
     @IBAction func phoneCallBTN(_ sender: Any) {
         guard let number = URL(string: "tel://" + phones) else { return }
         UIApplication.shared.open(number)
 
-        
-        
     }
     
     @IBAction func webSiteLinkBTN(_ sender: Any) {
@@ -214,8 +236,14 @@ class 	exhibitorsDetialsVC: UIViewController,MFMailComposeViewControllerDelegate
     
     func openUrl(urlStr:String!) {
         
-        if let url = NSURL(string:urlStr) {
-            UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+        guard let url = URL(string: urlStr) else {
+          return //be safe
+        }
+
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        } else {
+            UIApplication.shared.openURL(url)
         }
         
         

@@ -367,9 +367,9 @@ class underConstrFairDetailsVC: UIViewController {
                 self.exhibitors = exhibitors
                 print("xxx\(self.exhibitors)")
                 self.exhibitorsCollection.reloadData()
-//                DispatchQueue.main.async {
-//                    self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.changeImage), userInfo: nil, repeats: true)
-//                }
+                DispatchQueue.main.async {
+                    self.timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(self.changeImage), userInfo: nil, repeats: true)
+                }
             }
         }
     }
